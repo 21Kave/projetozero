@@ -10,6 +10,9 @@ function togglemode() {
       "https://raw.githubusercontent.com/21Kave/projetozero/main/Assets/Avatar2.png"
     )
   } else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute(
+      "src",
+      "https://raw.githubusercontent.com/21Kave/projetozero/main/Assets/Avatar.png"
+    )
   }
 }
